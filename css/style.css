@@ -802,10 +802,10 @@ body {
   margin-bottom: 12px;
 }
 .form-client-item:focus-within .form-client-icon {
-  fill: #2196f3;
+  fill: var(--highlited);
 }
 .form-client-item:focus-within .form-client-input {
-  border-color: #2196f3;
+  border-color: var(--highlited);
 }
 .form-client-item {
   position: relative;
@@ -844,6 +844,9 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 16px 12px;
+}
+.form-client-feedback:focus-within {
+  border-color: var(--highlited);
 }
 .form-client-feedback:placeholder-shown {
   font-size: 12px;
