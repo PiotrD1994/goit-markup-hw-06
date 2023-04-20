@@ -803,9 +803,15 @@ body {
 }
 .form-client-item:focus-within .form-client-icon {
   fill: var(--highlited);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
 }
 .form-client-item:focus-within .form-client-input {
   border-color: var(--highlited);
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
 }
 .form-client-item {
   position: relative;
@@ -828,12 +834,18 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
 }
 
 .form-client-icon {
   position: absolute;
   left: 55px;
   top: 32px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
 }
 .form-client-feedback {
   display: block;
@@ -844,9 +856,15 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 16px 12px;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
 }
 .form-client-feedback:focus-within {
   border-color: var(--highlited);
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
 }
 .form-client-feedback:placeholder-shown {
   font-size: 12px;
