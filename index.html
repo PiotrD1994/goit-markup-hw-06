@@ -458,26 +458,48 @@
       <div class="modal">
         <button type="button" class="x-button" data-modal-close>x</button>
         <p class="form-title">Zostaw swoje dane w formularzu poniżej</p>
-        <form>
-          <label
-            ><div class="form-client-title">Imie</div>
-            <input class="form-client-input" type="text" name="name"
-          /></label>
-          <label>Telefon <input type="tel" name="phone-number" /></label>
-          <label>E-mail <input type="email" name="email-contact" /></label>
-          <label
-            >Komentarz
-            <textarea name="feedback" placeholder="Wprowadź tekst"></textarea>
+        <form class="form-client">
+          <label class="form-client-item"
+            ><span class="form-client-title">Imie</span>
+            <svg class="form-client-icon" width="13px" height="13px">
+              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+            </svg>
+            <input class="form-client-input" type="text" name="name" />
           </label>
+          <label class="form-client-item"
+            ><span class="form-client-title">Telefon</span>
+            <svg class="form-client-icon" width="13px" height="13px">
+              <use href="./images/icons.svg#icon-Vector"></use>
+            </svg>
+            <input class="form-client-input" type="tel" name="phone-number"
+          /></label>
+          <label class="form-client-item"
+            ><span class="form-client-title">E-mail</span>
+            <svg class="form-client-icon" width="15px" height="12px">
+              <use href="./images/icons.svg#icon-Vector1"></use>
+            </svg>
+            <input class="form-client-input" type="email" name="email-contact"
+          /></label>
           <label
+            ><span class="form-client-title">Komentarz</span>
+            <textarea
+              class="form-client-feedback"
+              name="feedback"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </label>
+          <label class="terms-line"
             ><input
+              class="form-client-terms-checkbox"
               type="checkbox"
               name="terms"
               value="terms-accept"
-            />Oświadczam iż akceptuje <a href="">Regulamin</a> i
-            <a href="">Politykę prywatności</a></label
+            /><span class="form-client-terms"
+              >Oświadczam iż akceptuje <a href="">Regulamin</a> i
+              <a href="">Politykę prywatności</a></span
+            ></label
           >
-          <button type="submit">Wyślij</button>
+          <button class="form-client-button" type="submit">Wyślij</button>
         </form>
       </div>
     </div>
