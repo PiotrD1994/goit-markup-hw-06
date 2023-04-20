@@ -801,6 +801,12 @@ body {
   margin-top: 2px;
   margin-bottom: 12px;
 }
+.form-client-item:focus-within .form-client-icon {
+  fill: #2196f3;
+}
+.form-client-item:focus-within .form-client-input {
+  border-color: #2196f3;
+}
 .form-client-item {
   position: relative;
 }
