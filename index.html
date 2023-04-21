@@ -459,27 +459,39 @@
         <button type="button" class="x-button" data-modal-close>x</button>
         <p class="form-title">Zostaw swoje dane w formularzu poniżej</p>
         <form class="form-client">
-          <label class="form-client-item"
+          <label
             ><span class="form-client-title">Imie</span>
-            <svg class="form-client-icon" width="13px" height="13px">
-              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-            </svg>
-            <input class="form-client-input" type="text" name="name" />
+            <div class="input-container">
+              <svg class="form-client-icon" width="12px" height="12px">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+              <input class="form-client-input" type="text" name="name" />
+            </div>
           </label>
-          <label class="form-client-item"
+          <label
             ><span class="form-client-title">Telefon</span>
-            <svg class="form-client-icon" width="13px" height="13px">
-              <use href="./images/icons.svg#icon-Vector"></use>
-            </svg>
-            <input class="form-client-input" type="tel" name="phone-number"
-          /></label>
+            <div class="input-container">
+              <svg class="form-client-icon" width="13px" height="13px">
+                <use href="./images/icons.svg#icon-Vector"></use>
+              </svg>
+              <input
+                class="form-client-input"
+                type="tel"
+                name="phone-number"
+              /></div
+          ></label>
           <label class="form-client-item"
             ><span class="form-client-title">E-mail</span>
-            <svg class="form-client-icon" width="15px" height="12px">
-              <use href="./images/icons.svg#icon-Vector1"></use>
-            </svg>
-            <input class="form-client-input" type="email" name="email-contact"
-          /></label>
+            <div class="input-container">
+              <svg class="form-client-icon" width="15px" height="12px">
+                <use href="./images/icons.svg#icon-Vector1"></use>
+              </svg>
+              <input
+                class="form-client-input"
+                type="email"
+                name="email-contact"
+              /></div
+          ></label>
           <label
             ><span class="form-client-title">Komentarz</span>
             <textarea
@@ -489,12 +501,9 @@
             ></textarea>
           </label>
           <label class="terms-line"
-            ><input
-              class="form-client-terms-checkbox"
-              type="checkbox"
-              name="terms"
-              value="terms-accept"
-            /><span class="form-client-terms"
+            ><svg width="16px" height="15px">
+              <use href="./images/icons.svg#icon-Vector2"></use></svg
+            ><span class="form-client-terms"
               >Oświadczam iż akceptuje <a href="">Regulamin</a> i
               <a href="">Politykę prywatności</a></span
             ></label

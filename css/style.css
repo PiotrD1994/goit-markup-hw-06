@@ -801,20 +801,20 @@ body {
   margin-top: 2px;
   margin-bottom: 12px;
 }
-.form-client-item:focus-within .form-client-icon {
+.input-container:focus-within .form-client-icon {
   fill: var(--highlited);
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
 }
-.form-client-item:focus-within .form-client-input {
+.input-container:focus-within .form-client-input {
   border-color: var(--highlited);
   outline-color: var(--highlited);
   transition-property: border-color, outline-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
 }
-.form-client-item {
+.input-container {
   position: relative;
 }
 .form-client-title {
@@ -843,7 +843,7 @@ body {
 .form-client-icon {
   position: absolute;
   left: 55px;
-  top: 32px;
+  top: 14px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
