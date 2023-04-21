@@ -876,20 +876,36 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 .form-client-terms {
-  margin-left: 8px;
+  margin-left: 55px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color-one);
 }
-.form-client-terms-checkbox {
-  margin-left: 55px;
-  color: var(--color-menu);
+.form-client-terms::before {
+  content: "";
+  display: inline-block;
   width: 16px;
+  height: 15px;
+  border: 1px solid var(--color-menu);
+  margin-right: 8px;
 }
 .terms-line {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  position: relative;
+}
+.checkbox {
+  display: block;
+  position: absolute;
+  left: 55px;
+  fill: var(--third-background-color);
+  background-color: var(--highlited);
+  border-radius: 2px;
+  opacity: 0;
+}
+.checkbox:focus {
+  opacity: 1;
 }
 .form-client-button {
   display: block;
