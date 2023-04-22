@@ -500,15 +500,17 @@
               placeholder="Wprowadź tekst"
             ></textarea>
           </label>
-          <div class="terms-line">
-            <svg class="checkbox" width="16px" height="15px">
+          <label class="terms-container">
+            <input class="terms-checkbox" type="checkbox" name="terms" />
+            <svg class="active-checkbox" width="16px" height="15px">
               <use href="./images/icons.svg#icon-Vector2"></use>
             </svg>
-            <span class="form-client-terms"
-              >Oświadczam iż akceptuje <a href="">Regulamin</a> i
-              <a href="">Politykę prywatności</a></span
-            >
-          </div>
+            <span class="form-client-terms">
+              Oświadczam iż akceptuje
+              <a class="terms-link" href="#">Regulamin</a>i
+              <a class="terms-link" href="#">Politykę prywatności</a>
+            </span>
+          </label>
           <button class="form-client-button" type="submit">Wyślij</button>
         </form>
       </div>
