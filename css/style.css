@@ -805,14 +805,14 @@ body {
   fill: var(--highlited);
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-container:focus-within .form-client-input {
   border-color: var(--highlited);
   outline-color: var(--highlited);
   transition-property: border-color, outline-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-container {
   position: relative;
@@ -837,7 +837,7 @@ body {
   padding-left: 42px;
   transition-property: border-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-client-icon {
@@ -846,7 +846,7 @@ body {
   top: 14px;
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-client-feedback {
   display: block;
@@ -859,14 +859,14 @@ body {
   padding: 16px 12px;
   transition-property: border-color outline-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   outline-color: none;
 }
 .form-client-feedback:focus-within {
   border-color: var(--highlited);
   transition-property: border-color, outline-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   outline-color: var(--highlited);
 }
 .form-client-feedback:placeholder-shown {
@@ -912,7 +912,7 @@ body {
   opacity: 0;
   transition-property: opacity;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .terms-checkbox {
   display: block;
@@ -928,7 +928,7 @@ body {
   opacity: 1;
   transition-property: opacity;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier((0.4, 0, 0.2, 1));
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-client-button {
