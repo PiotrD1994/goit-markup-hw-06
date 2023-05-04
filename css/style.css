@@ -355,7 +355,6 @@ body {
   margin-top: 0px;
   padding-left: 70px;
   padding-right: 70px;
-
   white-space: nowrap;
 }
 .personel {
@@ -401,7 +400,7 @@ body {
   background-color: var(--highlited);
 }
 .social-media-icon:hover,
-.social-media-icon-link {
+.social-media-icon:focus {
   fill: var(--third-background-color);
 }
 .clients-block {
